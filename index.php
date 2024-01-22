@@ -13,15 +13,10 @@
     <link rel="stylesheet" href="index.css">
     <div class="h1">
         <img src="img/logo-jairo webs.webp">
-        <h2>"Completa tu Hoja de Vida 1003 y Descárgala Aquí"</h2>
+        <h2>"Completa tu Hoja de Vida 1003 y Descárgala <a href="http://">Aquí</a>"</h2>
 
     </div>
-    <div class="nabar">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">descargar</a>
-           
-    </div>
+   
     </ul><br>
 </head>
 
