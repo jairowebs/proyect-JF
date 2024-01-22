@@ -1,0 +1,360 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 2px;
+ 
+}
+/* estilos nav  */
+.azul{
+   
+     border: solid #174A7C 1px;     
+     color: white;
+     background-color: #0078BC;
+}
+.bsolido{
+   border: solid #174A7C 1px;   
+}
+input{
+   background-color: #0077bc2f;
+ 
+}
+.p{
+    justify-content: right;
+    text-align: right;
+}
+
+
+.h1{
+    align-items: center;
+    display: flex;
+    color:rgb(15, 60, 108);
+    padding: 2%;
+    margin-left: 3px;
+    background-image: url(img/rm222-mind-14.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+}
+.h1 img{
+    width: 150px;
+    margin-right: 10px;
+    
+}
+.h1 h2{
+    padding: 5px;
+     border: rgb(255, 255, 255) solid;
+     border-radius: 20px;
+     background-color: white;
+}
+
+.nav-item{
+    margin-right: 20px;
+    display: flex;
+    
+}
+.nabar a {
+    border: solid #174A7C;
+    border-radius: 20px;
+    
+   
+    }
+
+.nabar a:hover {
+    border-color: aquamarine;
+    background-color:#75BEE9;
+    color: white;
+
+    
+}
+
+
+/* estilos hoja de vida */
+
+.encabezado{
+    border: solid #174A7C 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.encabezado h1{
+    font-weight: bold;
+}
+
+.encabezado p{
+    color: #0078BC;
+}
+.primer{
+    color: #0078BC;
+
+}
+.prueba1{
+    border: solid #174A7C 1px;
+    border-radius: 17px 0px 0px 17px;
+}
+
+
+.prueba2{
+    border: solid #174A7C 1px;
+    border-radius: 0px 0px 0px 17px;
+   
+}
+
+.prueba3{
+    border: solid #174A7C 1px;
+    border-radius: 0px 17px 17px 0px;
+}
+
+.prueba4{
+    border: solid #174A7C 1px;
+    border-radius: 0px 17px 0px 0px;
+}
+
+.prueba5{
+    border: solid #174A7C 1px;
+    border-radius: 17px 0px 0px 0px;
+}
+
+    
+.prueba6{
+    border: solid #174A7C 1px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.prueba7{
+    border: solid #174A7C 1px;
+    border-radius: 17px 17px 17px 17px;
+
+}
+.prueba7 .linea{
+     border: none; /* Quita el borde del input */
+    border-bottom: 1px solid #174A7C; /* Añade una línea inferior */
+    padding: 0px; /* Ajusta el espaciado interno si es necesario */
+    background-color: transparent; /* Hace el fondo transparente */
+
+}
+.p7{
+  border-right: 1px solid #174A7C;  
+}
+.prueba8{
+   border-top: none; /* Borde en la parte superior */
+    border-right: 1px solid #174A7C; /*  borde en el lado derecho */
+    border-bottom: none; /*  borde en la parte inferior */
+    border-left: none; /* borde en el lado izquierdo */
+    
+}
+
+.pba{
+  border-top:1px solid #174A7C; /* Borde en la parte superior */  
+
+}
+
+.pbordes{
+ 
+ border-right: 1px solid #174A7C;
+ border-bottom: 1px solid #174A7C;
+}
+.pbordes1{
+  border-bottom: 1px solid #174A7C;  
+}
+
+.bbordes{
+    border-bottom:1px solid #174A7C;  /*  borde en la parte inferior */
+  border-left:  1px solid #174A7C; /* borde en el lado izquierdo */   
+}
+
+.prueba8-1{
+    border-top:1px solid #174A7C;
+     border-right: 1px solid #174A7C;
+
+}
+
+.prueba8-2{
+    border-top:1px solid #174A7C;
+}
+.prueba8-3{
+    border-top:1px solid #174A7C;
+}
+
+
+.prueba8-4{
+    border-top:1px solid #174A7C;
+}
+
+
+
+.prueba9{
+    border:1px solid #174A7C;
+    border-radius: 17px 0px 0px 0px; 
+    border-right:none;
+}
+.prueba9-1{
+    border:1px solid #174A7C;
+ border-right:none;
+
+}
+.prueba9-1 input{
+border: none;
+}
+.prueba9-2{
+ border:1px solid #174A7C;
+ border-right:none;
+ border-left:none;
+}
+.segundo{ 
+      display: flex;
+     border: solid #174A7C 1px;
+     justify-content: center;
+     color: white;
+     border-radius: 17px;
+     background-color: #0078BC;
+ 
+}
+.segundo h3{
+    padding: 1px 1px 5px 5px;
+    margin:5px 5px 2px 2px ;
+    text-align:right;
+    align-items: center;
+  
+}
+.segundo p{
+    padding: 1px 1px 5px 5px;
+    margin:10px 10px 5px 5px ;
+}
+
+.foto{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+  .espacio{
+    /* border: 1px solid black; */
+    margin: 8px;
+    padding: 10px;
+  }
+
+  .obs{
+    width: 20%;
+  }
+
+.choose{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.span{
+    display: flex;
+}
+ .section6{
+    border: 1px solid #ccc;
+ }
+
+ .opciones{
+    position: relative;
+    top: 155px;
+ }
+
+ .tablaentrevistadores{
+    position: relative;
+    top: 17px;
+ }
+
+ .tabla1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    /* width: 50%; */
+ }
+
+
+.sections{
+    position: relative;
+    left: 17px;
+}
+
+ .sectionone{
+    position: relative;
+    top: -160px;
+    line-height: 1.8;
+    padding: 10px;
+    left: 5px;
+    height: 158px;
+    width: 430px;
+ }
+
+ .sectiontwo{
+    position: relative;
+    left: 419px;
+    top: -319px;
+    padding: 8px;
+ }
+
+ .sectionthree{
+    position: relative;
+    left: 420px;
+    top: -334px;
+    padding: 8px;
+ }
+
+ .sectionfour{
+    position: relative;
+    left: 845px;
+    top: -508px;
+    padding: 8px;
+    width: 439px;
+ }
+
+ .sectionfive{
+    position: relative;
+    left: 845px;
+    top: -525px;
+    padding: 8px;
+    width: 437px;
+ }
+
+ .datosFinales{
+    
+    position: relative;
+    top: -407px;
+    height: 100px;
+    padding: 8px;
+    width: 1287px;
+    /* background-color: #0078BC; */
+}
+
+/* .tabla1,.tabla2{
+    width: 50%;
+} */
+
+
+.casilla1{
+    width: 30%;
+}
+
+.casilla2{
+    width: 70%;
+}
+
+.casilla3{
+    width: 33.33%;
+}
+
+.casilla4{
+    width: 33.33%;
+}
+
+.casilla5{
+    width: 33.33%;
+}
+
+.input5{
+    position: relative;
+    top: 76px;
+}
+
+.bordecasilla{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #0078BC;
+}
+
