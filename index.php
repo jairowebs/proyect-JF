@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="stilos.css">
+    <link rel="stylesheet" href="index.css">
     <div class="h1">
         <img src="img/logo-jairo webs.webp">
         <h2>"Completa tu Hoja de Vida 1003 y Descárgala <a href="reporte.php">Aquí</a>"</h2>
@@ -2568,8 +2568,5 @@
 
     <script src="index.js"></script>
 
-    ';
-}
-?>
 </body>
 </html>

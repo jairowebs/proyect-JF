@@ -1,12 +1,20 @@
 <?php
+ob_start();
 
-require_once 'vendor/autoload.php';
+require ('index.php');
+$html = ob_get_clean();
+require 'vendor/autoload.php';
+use dompdf\dompdf;
 
-$mpdf=new \Mpdf\Mpdf();
+$dompdf = new Dompdf();
 
-$mpdf->WriteHTML('<h1>Hello world!</h1>');
-$mpdf->Output("pdf","I");
+$options = $dompdf->getOptions();
+$options->set(array('isPemoteEnabled'=>true));
+$dompdf->setOptions($options);
 
-
+$dompdf -> loadHtml($html);
+$dompdf ->setPaper('latter');
+$dompdf ->render();
+$dompdf ->stream("pdf",array('attachment'=>false));
 
 ?>
