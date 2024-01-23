@@ -6,20 +6,6 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit6f81351a60f9334e568bb88e084fc894
 {
-    public static $prefixLengthsPsr4 = array (
-        'M' => 
-        array (
-            'Mpdf\\' => 5,
-        ),
-    );
-
-    public static $prefixDirsPsr4 = array (
-        'Mpdf\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mpdf/mpdf/src',
-        ),
-    );
-
     public static $classMap = array (
         'CGIF' => __DIR__ . '/..' . '/mpdf/mpdf/classes/gif.php',
         'CGIFCOLORTABLE' => __DIR__ . '/..' . '/mpdf/mpdf/classes/gif.php',
@@ -59,8 +45,6 @@ class ComposerStaticInit6f81351a60f9334e568bb88e084fc894
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6f81351a60f9334e568bb88e084fc894::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6f81351a60f9334e568bb88e084fc894::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit6f81351a60f9334e568bb88e084fc894::$classMap;
 
         }, null, ClassLoader::class);
