@@ -1,24 +1,31 @@
 <?php
+ob_start();
+require 'index.php';
+$html = ob_get_clean();
 
 require 'vendor/autoload.php';
 
-$mpdf = new \Mpdf\Mpdf(); // Crea una nueva instancia de la clase Mpdf
+// Reference the Dompdf namespace
+use Dompdf\Dompdf;
 
-$html = '<h1>Hello world!</h1>'; // Contenido HTML para el PDF
+// Instantiate and use the dompdf class
+$dompdf = new Dompdf();
 
-$mpdf->WriteHTML($html); // Utiliza la instancia para escribir el contenido HTML
+// Set paper size to "oficio" (8.5 x 13 inches)
+$dompdf->setPaper([0, 0, 612, 936], 'portrait');
 
-$mpdf->Output(); // Genera la salida del PDF
+$dompdf->loadHtml($html);
+
+try {
+    // Try to render and generate the PDF
+    $dompdf->render();
+    
+    // Output the generated PDF to the browser
+    $dompdf->stream();
+} catch (Exception $e) {
+    // Handle the exception (e.g., display an error message)
+    echo 'Error generating PDF: ', $e->getMessage();
+}
 ?>
 
 
-//require 'fpdf186/fpdf.php';
-
-
-
-//$pdf = new FPDF();
-//$pdf->AddPage();
-//$pdf->SetFont('Arial','B',16);
-
-//$pdf->Output();
-?>
