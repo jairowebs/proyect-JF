@@ -13,12 +13,19 @@
     <link rel="stylesheet" href="index.css">
     <div class="h1">
         <img src="img/logo-jairo webs.webp">
-        <h2>"Completa tu Hoja de Vida 1003 y Descárgala <a href="reporte.php">Aquí</a>"</h2>
+        <h2>"Completa tu Hoja de Vida 1003 y Descárgala <a target="*_blank" href="reporte.php">Aquí</a>"</h2>
 
     </div>
    
     </ul><br>
 </head>
+
+<?php
+
+function getPlantilla(){
+
+$contenido = '
+
 
 <body>
 
@@ -2568,5 +2575,12 @@
 
     <script src="index.js"></script>
 
-</body>
+</body>';
+
+return $contenido;
+
+}
+
+
+?>
 </html>
