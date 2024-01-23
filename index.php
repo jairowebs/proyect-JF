@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="stilos.css">
     <div class="h1">
         <img src="img/logo-jairo webs.webp">
-        <h2>"Completa tu Hoja de Vida 1003 y Descárgala <a href="descargas.php">Aquí</a>"</h2>
+        <h2>"Completa tu Hoja de Vida 1003 y Descárgala <a href="reporte.php">Aquí</a>"</h2>
 
     </div>
    
