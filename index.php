@@ -20,11 +20,7 @@
     </ul><br>
 </head>
 
-<?php
 
-function getPlantilla(){
-
-$contenido = '
 
 
 <body>
@@ -2575,12 +2571,5 @@ $contenido = '
 
     <script src="index.js"></script>
 
-</body>';
-
-return $contenido;
-
-}
-
-
-?>
+</body>
 </html>
